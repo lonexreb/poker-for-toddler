@@ -41,12 +41,17 @@ Before the showdown, you can **swap one card** for a new one from the deck — o
 
 ## Features
 
+- **15-level adventure** across 3 themed worlds (Number Garden, Star Market, Mystery Mountain)
+- **Dynamic quizzes** generated from actual dealt cards — comparing, adding, probability
+- **Star currency** — earn from wins, quizzes, and streaks; spend on power-ups (peek, extra swap)
+- **Entrepreneurial mechanics** — bet stars, invest ("plant stars to grow!"), trade for guaranteed rewards
+- **7 collectible badges** — first-win, counting-star, number-wizard, star-trader, smart-swapper, fire-streak, card-champion
+- **Streak system** — every 3 wins = bonus star, 5-streak = Fire Streak badge
+- **Free Play mode** — endless rounds without level progression
 - **Big, bright cards** with large touch targets (44×44px minimum)
-- **Visual hand labels** that teach what each hand means
 - **One-card swap mechanic** — adds strategy even for little ones
 - **Confetti celebrations** on wins
-- **Score tracking** across rounds
-- **Built-in learning guide** explaining all the poker hands
+- **Progress persistence** — stars, level, badges saved to localStorage
 - **No gambling language** — 100% child-safe
 - **Works offline** as a PWA — install it on your home screen
 - **iOS native ready** via Capacitor
@@ -116,7 +121,7 @@ poker-for-toddler/
 │   └── icon-512.png    # App icon 512×512
 └── src/
     ├── main.jsx        # React 18 entry point
-    └── App.jsx         # Entire game — single-file component (~300 lines)
+    └── App.jsx         # Entire game — single-file component (~580 lines)
 ```
 
 ---
