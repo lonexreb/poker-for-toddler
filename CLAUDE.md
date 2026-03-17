@@ -34,7 +34,8 @@ Toy floor of 10 — kids can never go broke.
 ## Project Structure
 ```
 poker-for-toddler/
-├── CLAUDE.md              # This file
+├── CLAUDE.md              # This file — codebase instructions for Claude
+├── PLAN.md                # Project plan & progress tracker
 ├── README.md              # Project README with banner
 ├── .gitignore
 ├── package.json

@@ -118,6 +118,25 @@ npx cap open ios                   # Open Xcode
 
 ---
 
+## Project Roadmap
+
+See **[PLAN.md](./PLAN.md)** for the full plan and progress tracker.
+
+| Phase | Status | What |
+|-------|--------|------|
+| Core Game Engine | ✅ Done | 5-from-7 eval, all 10 hand rankings, kickers |
+| Level System | ✅ Done | 4 worlds × 5 levels, progressive difficulty |
+| Quiz Engine | ✅ Done | 15 quiz types from real dealt cards |
+| Gamification | ✅ Done | Toys, badges, streaks, persistence |
+| Betting | ✅ Done | Bet/check/fold with toy currency |
+| UI/UX Polish | ✅ Done | Animations, hand guide, free play |
+| Deployment | ✅ Done | Vercel + PWA + GitHub |
+| iOS App | 🔜 Next | Capacitor build, App Store submission |
+| Content Polish | 📋 Planned | Sound effects, card flip animations, tutorial |
+| Advanced Features | 📋 Future | Multiplayer, parent dashboard, daily challenges |
+
+---
+
 ## Also Check Out
 
 **[Blackjack for Toddler](../blackjack-for-toddler)** — the sister game that teaches numbers and addition through simplified Blackjack!
