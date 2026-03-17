@@ -5,11 +5,15 @@
 <h1 align="center">🃏 Poker Fun! Learn Cards</h1>
 
 <p align="center">
-  <b>A colorful, toddler-friendly poker game that teaches young children card matching, pattern recognition, and basic poker hands.</b>
+  <b>A colorful, gender-neutral poker game that teaches kids aged 4–8 card matching, pattern recognition, and basic strategy — through fun, gamified play.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ages-2--6-FF4757?style=for-the-badge&labelColor=2d3436" alt="Ages 2-6"/>
+  <a href="https://poker-for-toddler.vercel.app"><img src="https://img.shields.io/badge/▶_Play_Now-poker--for--toddler.vercel.app-FF6B35?style=for-the-badge&labelColor=2d3436" alt="Play Now"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ages-4--8-FF4757?style=for-the-badge&labelColor=2d3436" alt="Ages 4-8"/>
   <img src="https://img.shields.io/badge/react-18-61dafb?style=for-the-badge&logo=react&logoColor=white&labelColor=2d3436" alt="React 18"/>
   <img src="https://img.shields.io/badge/vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=2d3436" alt="Vite 6"/>
   <img src="https://img.shields.io/badge/PWA-ready-FFA502?style=for-the-badge&labelColor=2d3436" alt="PWA Ready"/>
