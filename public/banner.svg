@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c2e9fb"/>
+      <stop offset="45%" style="stop-color:#a1c4fd"/>
+      <stop offset="100%" style="stop-color:#ffecd2"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f8f9fa"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA502"/>
+      <stop offset="100%" style="stop-color:#FF6B35"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)" rx="20"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="50" r="80" fill="#FF4757" opacity="0.08"/>
+  <circle cx="1100" cy="350" r="100" fill="#2ED573" opacity="0.08"/>
+  <circle cx="1050" cy="80" r="60" fill="#FFA502" opacity="0.1"/>
+  <circle cx="150" cy="350" r="70" fill="#1E90FF" opacity="0.08"/>
+
+  <!-- Left card: Ace of Hearts -->
+  <g transform="translate(80, 100) rotate(-12, 60, 80)" filter="url(#cardShadow)">
+    <rect width="120" height="170" rx="16" fill="url(#cardGrad)" stroke="white" stroke-width="3"/>
+    <text x="14" y="32" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#FF4757">A</text>
+    <text x="14" y="52" font-size="16" fill="#FF4757">&#9829;</text>
+    <text x="60" y="105" font-size="50" fill="#FF4757" text-anchor="middle">&#9829;</text>
+    <text x="106" y="158" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#FF4757" text-anchor="end" transform="rotate(180, 106, 148)">A</text>
+  </g>
+
+  <!-- Left card 2: Ace of Spades -->
+  <g transform="translate(140, 110) rotate(-4, 60, 80)" filter="url(#cardShadow)">
+    <rect width="120" height="170" rx="16" fill="url(#cardGrad)" stroke="white" stroke-width="3"/>
+    <text x="14" y="32" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#2d3436">A</text>
+    <text x="14" y="52" font-size="16" fill="#2d3436">&#9824;</text>
+    <text x="60" y="105" font-size="50" fill="#2d3436" text-anchor="middle">&#9824;</text>
+    <text x="106" y="158" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#2d3436" text-anchor="end" transform="rotate(180, 106, 148)">A</text>
+  </g>
+
+  <!-- Title area -->
+  <text x="600" y="140" text-anchor="middle" font-family="'Fredoka One', Verdana, sans-serif" font-size="72" fill="#2d3436" filter="url(#shadow)">
+    <tspan>&#127183; Poker Fun!</tspan>
+  </text>
+  <text x="600" y="200" text-anchor="middle" font-family="'Fredoka One', Verdana, sans-serif" font-size="32" fill="#636e72">
+    Learn Cards &#11088;
+  </text>
+
+  <!-- Subtitle -->
+  <rect x="340" y="225" width="520" height="44" rx="22" fill="url(#btnGrad)" filter="url(#shadow)"/>
+  <text x="600" y="254" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="18" fill="white">
+    A toddler-friendly poker game for ages 2-6
+  </text>
+
+  <!-- Feature pills -->
+  <rect x="290" y="290" width="130" height="36" rx="18" fill="white" opacity="0.85" filter="url(#shadow)"/>
+  <text x="355" y="314" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="14" fill="#FF4757">&#9829; Pairs</text>
+
+  <rect x="440" y="290" width="150" height="36" rx="18" fill="white" opacity="0.85" filter="url(#shadow)"/>
+  <text x="515" y="314" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="14" fill="#2ED573">&#127183; Card Match</text>
+
+  <rect x="610" y="290" width="130" height="36" rx="18" fill="white" opacity="0.85" filter="url(#shadow)"/>
+  <text x="675" y="314" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="14" fill="#1E90FF">&#128166; Swap</text>
+
+  <rect x="760" y="290" width="150" height="36" rx="18" fill="white" opacity="0.85" filter="url(#shadow)"/>
+  <text x="835" y="314" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="14" fill="#FFA502">&#127881; Confetti</text>
+
+  <!-- Right card: King of Diamonds -->
+  <g transform="translate(940, 110) rotate(4, 60, 80)" filter="url(#cardShadow)">
+    <rect width="120" height="170" rx="16" fill="url(#cardGrad)" stroke="white" stroke-width="3"/>
+    <text x="14" y="32" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#FF6B35">K</text>
+    <text x="14" y="52" font-size="16" fill="#FF6B35">&#9830;</text>
+    <text x="60" y="105" font-size="50" fill="#FF6B35" text-anchor="middle">&#9830;</text>
+    <text x="106" y="158" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#FF6B35" text-anchor="end" transform="rotate(180, 106, 148)">K</text>
+  </g>
+
+  <!-- Right card 2: King of Clubs -->
+  <g transform="translate(1000, 100) rotate(12, 60, 80)" filter="url(#cardShadow)">
+    <rect width="120" height="170" rx="16" fill="url(#cardGrad)" stroke="white" stroke-width="3"/>
+    <text x="14" y="32" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#2d3436">K</text>
+    <text x="14" y="52" font-size="16" fill="#2d3436">&#9827;</text>
+    <text x="60" y="105" font-size="50" fill="#2d3436" text-anchor="middle">&#9827;</text>
+    <text x="106" y="158" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#2d3436" text-anchor="end" transform="rotate(180, 106, 148)">K</text>
+  </g>
+
+  <!-- Bottom text -->
+  <text x="600" y="375" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="14" fill="#b2bec3">
+    React + Vite &#8226; PWA &#8226; iOS Ready via Capacitor
+  </text>
+</svg>
