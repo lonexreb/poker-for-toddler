@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="public/banner.svg" alt="Poker Fun! Learn Cards" width="100%"/>
+  <img src="public/banner.svg" alt="Texas Hold'em for Kids" width="100%"/>
 </p>
 
-<h1 align="center">🃏 Poker Fun! Learn Cards</h1>
+<h1 align="center">🃏 Texas Hold'em for Kids!</h1>
 
 <p align="center">
-  <b>A colorful, gender-neutral poker game that teaches kids aged 4–8 card matching, pattern recognition, and basic strategy — through fun, gamified play.</b>
+  <b>Learn REAL Texas Hold'em poker through toy cars, gems & crowns — designed for ages 4–9!</b>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ages-4--8-FF4757?style=for-the-badge&labelColor=2d3436" alt="Ages 4-8"/>
+  <img src="https://img.shields.io/badge/ages-4--9-FF4757?style=for-the-badge&labelColor=2d3436" alt="Ages 4-9"/>
   <img src="https://img.shields.io/badge/react-18-61dafb?style=for-the-badge&logo=react&logoColor=white&labelColor=2d3436" alt="React 18"/>
   <img src="https://img.shields.io/badge/vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=2d3436" alt="Vite 6"/>
   <img src="https://img.shields.io/badge/PWA-ready-FFA502?style=for-the-badge&labelColor=2d3436" alt="PWA Ready"/>
@@ -22,38 +22,64 @@
 
 ---
 
+## What Kids Learn
+
+This isn't simplified poker — it's **real Texas Hold'em**, taught progressively through 4 themed worlds:
+
+| Concept | How We Teach It | Kid-Friendly Version |
+|---------|----------------|---------------------|
+| 🃏 **10 Hand Rankings** | Visual guide + quizzes | "Royal Flush = golden crown!" |
+| 🌟 **Community Cards** | Flop → Turn → River revealed step by step | "Shared cards everyone can use!" |
+| 🧸 **Betting** | Toy cars, gems, unicorns, crowns | "Bet 2 toy cars!" not "Bet $20" |
+| 🧠 **Best Hand Selection** | Pick best 5 from 7 cards | "Which 5 make the best team?" |
+| 🔍 **Board Reading** | "Could someone have a Flush?" quizzes | "Detective mode — spot the danger!" |
+| ⚖️ **Risk/Reward** | Safe vs risky toy bets | "Is it worth 3 unicorns?" |
+| 🪑 **Position** | "Going last = seeing more clues" | "Be the detective, not the first guess!" |
+
+---
+
 ## How It Works
 
-Each round, **you and the dealer** both get **2 cards**. Your goal is to make the **best hand** you can!
+Each hand follows the real Texas Hold'em flow:
 
-| Hand | Points | Example | What to Look For |
-|------|--------|---------|-----------------|
-| 👯 **Pair** | 3 pts | `5♥ + 5♣` | Two cards with the **same number**! |
-| ❤️ **Red Match** | 2 pts | `3♥ + K♦` | Both cards are **red** (Hearts or Diamonds) |
-| 🖤 **Black Match** | 2 pts | `7♣ + J♠` | Both cards are **black** (Clubs or Spades) |
-| 🎰 **High Card** | 1 pt | `K♠ + 4♥` | No match — your **biggest card** counts |
+1. **🃏 Deal** — You and the dealer each get 2 secret cards
+2. **🌟 Flop** — 3 shared cards appear on the table
+3. **🌟 Turn** — A 4th shared card appears
+4. **🌟 River** — The 5th and final shared card
+5. **👀 Showdown** — Best 5-card hand wins!
 
-### The Twist: You Can Swap!
+### Hand Rankings (Best → Worst)
 
-Before the showdown, you can **swap one card** for a new one from the deck — or **keep both** if you like your hand. Then the dealer's cards are revealed and the best hand wins!
+| # | Hand | What It Means | Kid Metaphor |
+|---|------|---------------|-------------|
+| 👑 | **Royal Flush** | A-K-Q-J-10, same suit | The ultimate golden crown! |
+| 🌈 | **Straight Flush** | 5 in a row, same suit | A rainbow staircase! |
+| 🎯 | **Four of a Kind** | 4 matching cards | 4 matching toy cars! |
+| 🏠 | **Full House** | 3 matching + 2 matching | A full house of friends! |
+| 🎨 | **Flush** | 5 same suit, any order | A matching outfit! |
+| 🛤️ | **Straight** | 5 in a row, any suit | Counting stairs! |
+| 🎲 | **Three of a Kind** | 3 matching cards | A triple treat! |
+| 👟👟 | **Two Pair** | 2 + 2 matching | Two pairs of matching socks! |
+| 👯 | **One Pair** | 2 matching cards | Twins! |
+| ☝️ | **High Card** | Nothing matches | Your tallest card stands up! |
 
 ---
 
 ## Features
 
-- **15-level adventure** across 3 themed worlds (Number Garden, Star Market, Mystery Mountain)
-- **Dynamic quizzes** generated from actual dealt cards — comparing, adding, probability
-- **Star currency** — earn from wins, quizzes, and streaks; spend on power-ups (peek, extra swap)
-- **Entrepreneurial mechanics** — bet stars, invest ("plant stars to grow!"), trade for guaranteed rewards
-- **7 collectible badges** — first-win, counting-star, number-wizard, star-trader, smart-swapper, fire-streak, card-champion
-- **Streak system** — every 3 wins = bonus star, 5-streak = Fire Streak badge
-- **Free Play mode** — endless rounds without level progression
-- **Big, bright cards** with large touch targets (44×44px minimum)
-- **One-card swap mechanic** — adds strategy even for little ones
-- **Confetti celebrations** on wins
-- **Progress persistence** — stars, level, badges saved to localStorage
+- **20-level adventure** across 4 themed worlds (Card Kingdom → Champion Arena)
+- **Real Texas Hold'em** — all 10 hand rankings, community cards, betting rounds
+- **Toy-based betting** — stars ⭐, cars 🚗, unicorns 🦄, gems 💎, crowns 👑
+- **Progressive learning** — starts with just the Flop, adds Turn/River/betting as you advance
+- **Dynamic quizzes** generated from actual dealt cards
+- **12 collectible badges** — pair-spotter, flush-finder, straight-star, house-builder...
+- **Streak system** — every 3 wins = bonus toy
+- **Free Play mode** — full Texas Hold'em without level structure
+- **Hand guide** — all 10 rankings with kid-friendly explanations, always accessible
+- **Toy floor of 10** — kids can never go broke
+- **Progress persistence** — toys, level, badges saved to localStorage
 - **No gambling language** — 100% child-safe
-- **Works offline** as a PWA — install it on your home screen
+- **Works offline** as a PWA
 - **iOS native ready** via Capacitor
 
 ---
@@ -61,34 +87,20 @@ Before the showdown, you can **swap one card** for a new one from the deck — o
 ## Quick Start
 
 ```bash
-# Install dependencies
 npm install
-
-# Start dev server (LAN-accessible for mobile testing)
-npm run dev
-
-# Production build
-npm run build
-
-# Preview production build
-npm run preview
+npm run dev        # http://localhost:5174 (LAN-accessible)
+npm run build      # Production build
+npm run preview    # Preview production build
 ```
-
-The dev server runs at **http://localhost:5174** and is accessible on your local network for testing on real devices.
 
 ---
 
 ## iOS Native Build
 
 ```bash
-# First time only — generate Xcode project
-npx cap add ios
-
-# Sync web build into native shell
-npm run build && npx cap sync ios
-
-# Open in Xcode to build/run
-npx cap open ios
+npx cap add ios                    # First time only
+npm run build && npx cap sync ios  # Sync web build
+npx cap open ios                   # Open Xcode
 ```
 
 ---
@@ -106,48 +118,6 @@ npx cap open ios
 
 ---
 
-## Project Structure
-
-```
-poker-for-toddler/
-├── index.html          # Entry HTML with PWA meta tags + safe-area insets
-├── package.json
-├── vite.config.js      # Vite config (LAN-exposed on :5174)
-├── public/
-│   ├── banner.svg      # Project banner
-│   ├── manifest.json   # PWA manifest
-│   ├── sw.js           # Service worker (network-first nav, cache-first assets)
-│   ├── icon-192.png    # App icon 192×192
-│   └── icon-512.png    # App icon 512×512
-└── src/
-    ├── main.jsx        # React 18 entry point
-    └── App.jsx         # Entire game — single-file component (~580 lines)
-```
-
----
-
-## Design Decisions
-
-- **Single-file component** — the game is small and benefits from locality
-- **Inline styles** — keeps animations co-located with components
-- **Simplified poker hands** — real poker has too many hands for toddlers; we use 3 tiers (Pair > Color Match > High Card) that teach pattern recognition
-- **No state management library** — `useState` + `useCallback` is all we need
-- **No router** — single-screen app
-
----
-
-## Color Palette
-
-| Color | Hex | Usage |
-|-------|-----|-------|
-| 🔴 Red | `#FF4757` | Hearts, alerts |
-| 🟠 Orange | `#FFA502` | CTAs, highlights |
-| 🟢 Green | `#2ED573` | Wins, success |
-| 🔵 Blue | `#1E90FF` | Info, accents |
-| 🟣 Purple | `#6c5ce7` | Card backs, hints |
-
----
-
 ## Also Check Out
 
 **[Blackjack for Toddler](../blackjack-for-toddler)** — the sister game that teaches numbers and addition through simplified Blackjack!
@@ -155,5 +125,5 @@ poker-for-toddler/
 ---
 
 <p align="center">
-  Made with ❤️ for tiny card sharks
+  Made with ❤️ for tiny card sharks 🦈
 </p>
